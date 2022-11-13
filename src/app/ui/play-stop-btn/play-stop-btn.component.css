@@ -1,0 +1,61 @@
+button {
+    background-color: #F0F0F0;
+    border: none;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F0F0F0;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background: white;
+}
+
+.icon {
+    font-size: 25px;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 3px;
+}
+
+.bi-play-fill{
+    padding-top: 3px;
+    padding-left: 2px;
+}
+
+.bi-file-earmark-pdf-fill {
+    padding-top: 2px;
+}
+
+.bi-check-lg {
+    padding-top: 3px;
+    padding-right: 1px;
+}
+
+.stop {
+    background-color: #F95E2F !important;
+}
+
+.play-icon {
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+}
+
+.download, .save {
+    font-size: 17px;
+}
+
+.stop-icon {
+    margin-top: 3px;
+    width: 13px;
+    height: 13px;
+    background-color: #fff;
+} 

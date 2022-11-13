@@ -1,0 +1,38 @@
+.time {
+    min-width: 220px;
+}
+
+.tasks-container {
+    max-height: 700px;
+    min-height: 700px;
+    overflow: scroll;
+}
+
+.play-stop-btn-container {
+    width: 60px;
+    min-height: 100%;
+}
+
+p {
+    margin: 0;
+}
+
+.total-time,
+.current-time {
+    min-width: 90px;
+    display: flex;
+    justify-content: start;
+}
+
+.btn-wrapper {
+    box-shadow: 0px 0px 4px rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+    max-height: 52px;
+    transition: box-shadow 300ms;
+}
+
+.btn-wrapper:hover {
+    box-shadow: 0px 0px 8px rgb(0 0 0 / 20%);
+}

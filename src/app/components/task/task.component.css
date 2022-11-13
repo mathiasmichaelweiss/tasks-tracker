@@ -1,0 +1,66 @@
+.task {
+    background-color: #FAFAFA;
+}
+
+input {
+    padding: 4px 0px 4px 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background: white;
+
+    cursor: text;
+    transition: border 200ms;
+    max-width: 300px;
+}
+
+input:hover, input:focus {
+    border: 1px solid rgba(6, 172, 197, 0.2)
+}
+
+.inner-task {
+    background-color: #F0F0F0;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 10%);
+}
+
+.task-name {
+
+}
+
+.time {
+    min-width: 220px;
+}
+
+.total-time {
+
+}
+
+.current-time {
+
+}
+
+.play-stop-btn-container {
+    background-color: #F0F0F0;
+    width: 60px;
+    min-height: 100%;
+    background-color: #F0F0F0;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 10%);
+}
+
+p {
+    margin: 0;
+}
+
+.total-time,
+.current-time {
+    min-width: 90px;
+    display: flex;
+    justify-content: start;
+}

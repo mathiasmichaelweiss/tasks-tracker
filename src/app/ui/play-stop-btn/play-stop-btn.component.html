@@ -1,0 +1,11 @@
+<ng-container>
+    <button class="">
+        <div class="icon plus" *ngIf="icon === 'plus'" [ngStyle]="{'background': '#06ACC5'}"><p class="m-0">{{'+'}}</p></div>
+        <div class="icon play" *ngIf="icon === 'play'" [ngStyle]="{'background': '#06ACC5'}"><i class="bi bi-play-fill"></i></div>
+        <div class="icon stop" *ngIf="icon === 'stop'" [ngStyle]="{'background': '#06ACC5'}"><div class="stop-icon"></div></div>
+        <div class="icon save" *ngIf="icon === 'save'" [ngStyle]="{'background': '#06ACC5'}"><i class="bi bi-check-lg"></i></div>
+        <div class="icon download" *ngIf="icon === 'download'" [ngStyle]="{'background': '#06ACC5'}"><i class="bi bi-file-earmark-pdf-fill"></i></div>
+
+        <p *ngIf="text" class="m-0 ms-2">{{text}}</p>
+    </button>
+</ng-container>
